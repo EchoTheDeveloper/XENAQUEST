@@ -6,4 +6,27 @@
 
 #title {
     font-family: TitleFont;
+    text-align: center;
 }
+
+#text {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 119, 51);
+}
+
+#btn { 
+    padding: 10px 20px; 
+    background-color: #853e04; 
+    border-radius: 12px;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: box-shadow 0.3s ease; 
+} 
+
+#btn:hover { 
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6); 
+} 
